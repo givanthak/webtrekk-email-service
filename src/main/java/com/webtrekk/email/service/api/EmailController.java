@@ -32,6 +32,7 @@ public class EmailController {
     @Autowired
     private EmailPublisher emailPublisher;
 
+
     /**
      * Send message to kafka topic response entity.
      *
