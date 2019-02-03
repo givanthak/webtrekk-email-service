@@ -5,6 +5,7 @@
 
 This is a simple microservice responsible of sending emails asynchronous, using Spring Boot, Spring Mail , Apache Kafka, Apache Avro, confluent schema registry.
 
+<img width="880" src="https://github.com/givanthak/webtrekk-email-service/blob/master/howitswork.jpg">
 
 #### Email Service ###
 
