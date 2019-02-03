@@ -10,15 +10,15 @@ This is a simple microservice responsible of sending emails asynchronous, using 
 
 #### Technologies Stack and dependency ###
 
-Java 8
-Spring Boot 2.0.5
-Apache Avro 1.8.2
-Spring-Kafka 2.1.10   
-Swagger2
-Lombok
+- Java 8
+- Spring Boot 2.0.5
+- Apache Avro 1.8.2
+- Spring-Kafka 2.1.10   
+- Swagger2
+- Lombok
 
-Apache Kafka 2.11.2
-Confluent 5.1.0
+- Apache Kafka 2.11.2
+- Confluent 5.1.0
 
 ### How to run all the things? ##
 
