@@ -1,12 +1,12 @@
 # Webtrekk Email Service #
 
 
-## Email Service ###
+#### Email Service ###
 
 
-## Technologies Stack ###
+#### Technologies Stack ###
 
 
-## How to run all the things? ##
+### How to run all the things? ##
 
-# Before you start #
+#### Before you start #
