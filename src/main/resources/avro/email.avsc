@@ -1,0 +1,59 @@
+{
+     "type": "record",
+     "namespace": "com.webtrekk.email.service.avro",
+     "name": "Email",
+     "version": "1",
+     "fields": [
+             {
+                 "name": "from",
+                 "type": "string",
+                 "doc": "From email address"
+             },
+             {
+                 "name": "to",
+                 "type": "string",
+                 "doc": "To email address"
+             },
+             {
+                 "name": "cc",
+                 "type": "string",
+                 "doc": "Cc email address"
+             },
+             {
+                 "name": "bcc",
+                 "type": "string",
+                 "doc": "Bcc email address"
+             },
+             {
+                 "name": "subject",
+                 "type": "string",
+                 "doc": "Email subject"
+             },
+             {
+                 "name": "body",
+                 "type": "string",
+                 "doc": "Email body"
+             },
+             {
+                 "name": "attachments",
+                 "type": {
+                     "type": "array",
+                     "items":{
+                         "name": "Attachment",
+                         "type": "record",
+                         "fields":[
+                             {   "name": "name",
+                                 "type": "string",
+                                 "doc": "Attachment name"
+                             },
+                             {   "name": "attachmentURI",
+                                 "type": "string",
+                                 "doc": "Attachment url"
+                             }
+                         ]
+                     }
+                 },
+                 "default": []
+             }
+         ]
+}
