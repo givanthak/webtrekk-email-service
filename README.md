@@ -8,7 +8,6 @@ This is a simple microservice responsible of sending emails asynchronous, using 
 
 #### Email Service ###
 
-
 #### Technologies Stack and dependency ###
 
 Java 8
@@ -44,6 +43,8 @@ app.email.topic-group=email
 
 ##### Email Properties
 
+smtp email configuration details
+
 ```yml
 spring.mail.host=smtp.gmail.com
 spring.mail.port=587
@@ -70,10 +71,9 @@ after that follow below steps to run the email service
 
 ##### Start the servers
 
-######## Start Apache Kafka Server 
+##### Start Apache Kafka Server 
 
 Go to 
-
 `cd kafka_2.11-2.1.0`
 
 1. Kafka uses ZooKeeper so you need to first start a ZooKeeper server 
@@ -92,16 +92,26 @@ Go to
 
 `bin/kafka-topics.sh --list --zookeeper localhost:2181`
 
-######## Start Confluent for schema registry 
+##### Start Confluent for schema registry 
 
 Go to 
-
 `cd kafka_2.11-2.1.0`
 
  Now start the confluent schema registry
 
 `bin/schema-registry-start ./etc/schema-registry/schema-registry.properties`
 
+##### Start Webtrekk Email Service
+
+Go to 
+`cd webtrekk-email-service`
+
+execute the 
+` mvn exec:java or mvn spring-boot:run`
 
 #### Important endpoints
+
 - http://localhost:9000/swagger-ui.html - Swagger Api Defenition
+
+
+
