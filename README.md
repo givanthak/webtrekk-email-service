@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.com/givanthak/webtrekk-email-service.svg?branch=master)](https://travis-ci.com/givanthak/webtrekk-email-service)
-
 # Webtrekk Email Service #
 
 **A simple microservice responsible of asynchronous sending of emails**
