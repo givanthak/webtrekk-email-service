@@ -2,7 +2,9 @@
 
 # Webtrekk Email Service #
 
-**A simple microService responsible of asynchronous sending of emails**
+**A simple microservice responsible of asynchronous sending of emails**
+
+This is a simple microservice responsible of sending emails asynchronous, using Spring Boot, Spring Mail , Apache Kafka, Apache Avro, confluent schema registry.
 
 
 #### Email Service ###
