@@ -115,4 +115,21 @@ execute the
 - http://localhost:9000/swagger-ui.html - Swagger Api Defenition
 
 
+#### Test endpoint 
+
+Request
+
+`curl -i -H "Content-Type: application/json" -X POST -d '{"attachments":[{"attachmentURI":"https://lafeber.com/pet-birds/wp-content/uploads/2017/09/Parrot-300x300.jpg","name":"Birds"}],"bcc":"prathap.givantha@live.com","body":"This is test email","cc":"prathap.givantha@live.com","from":"prathap.givantha@live.com","subject":"Test Email","to":"prathap.givantha@live.com"}' http://localhost:9000/api/v1/email`
+
+Respond
+
+`HTTP/1.1 202 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Sun, 03 Feb 2019 18:07:07 GMT
+{"status":"Accepted","message":"Email Successfully Accepted."}`
+
+
+
+
 
