@@ -1,4 +1,4 @@
-[![GitHub license](https://github.com/givanthak/webtrekk-email-service/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/givanthak/webtrekk-email-service/blob/master/LICENSE)
 
 # Webtrekk Email Service #
 
