@@ -40,7 +40,7 @@ public class EmailServiceImpl implements EmailService {
                 addAttachment(email, mimeMessageHelper);
             emailSender.send(mimeMessage);
             LOGGER.info("Email Successful send to {}", email.getTo());
-        } catch (MessagingException ex) {
+        } catch (Exception ex){
             LOGGER.error("Email send fail to {} error occurred {}", email.getTo(), ex.getLocalizedMessage());
         }
     }
